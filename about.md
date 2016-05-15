@@ -4,6 +4,7 @@ title: About
 ---
 
 #### Juan Andrés Mucarquer
+<a href="mailto:REMOVETHISjuan.mucarquer@usm.cl">E-Mail</a> &mdash;
 <a href="https://cl.linkedin.com/in/jmucarquer">LinkedIn</a> &mdash; 
 <a href="https://facebook.com/jamoon">Facebook</a> &mdash; 
 <a href="https://twitter.com/jamoncamion">Twitter</a> &mdash;

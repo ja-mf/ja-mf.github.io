@@ -37,7 +37,7 @@ diagnósticos de un número discreto de enfermedades, porque estas en realidad a
 se conocen con certeza; más bien, describen cómo los síntomas se pueden agrupar,
 permitiendo la agrupación de pacientes.
 
-Esta elegante solución permite a clínicos decir, por ejemplo. "Usted tiene síntomas
+Esta elegante solución permite a clínicos decir, por ejemplo: "Usted tiene síntomas
 de psicosis y manía, y nosotros lo clasificamos como un trastorno esquizoafectivo. Si
 tus síntomas psicóticos desaparecen, lo reclasificaremos como un trastorno bipolar.
 Si, de otra manera, tus síntomas de manía desaparecen y tu psicosis llega a ser
@@ -66,7 +66,7 @@ Este vocabulario es altamente sugerente de que [la esquizofrenia] es un trastorn
 Extrañamente, ningún vocabulario como este es usado para las otras
 categorías de enfermedades psicóticas (trastorno esquizoformo, esquizoafectivo,
 delirante, breve psicótico y otros más). De hecho, incluso cuando constituyen
-el 70% de la morbilidad de enfermedades psicóticas (sólo el 30% de las personas
+el 70% de la [morbilidad](http://es.wikipedia.org/wiki/Morbilidad) de enfermedades psicóticas (sólo el 30% de las personas
 con enfermedades psicóticas tienen los síntomas que caen dentro de todos
 los criterios de esquizofrenia), estas otras categorías tienden a ser
 ignoradas en la literatura académica y en sitios de información médica profesional.

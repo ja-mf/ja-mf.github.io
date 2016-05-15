@@ -10,7 +10,7 @@
 
 html {
   font-family: $font-family;
-  font-size:   20px;
+  font-size:   1em;
   line-height: 1.5;
 }
 
@@ -234,4 +234,19 @@ table {
 
 .post-date {
   color: $post-date-color;  
+}
+
+abbr {
+	border-bottom: 1px dotted #ccc;
+}
+.two-columns {
+	column-count: 2;
+	font-size: .97em;
+}
+.footnotes li p {
+	text-indent: 0;
+	font-size: 0.8em;
+}
+.footnotes ol {
+	padding: 1em;
 }

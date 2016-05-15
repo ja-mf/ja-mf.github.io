@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Música, dopamina y estética"
+tags: [musica,divulgacion-cientifica,psy]
 ---
 
 <blockquote>
@@ -8,7 +9,8 @@ Music allows the passions to enjoy themselves. &mdash; F. Nietzsche.
 </blockquote>
 
 <small>
-[Artículo original: Salimpoor, V. N., Benovoy, M., Larcher, K., Dagher, A., & Zatorre, R. J. (2011). <em>Anatomically distinct dopamine release during anticipation and experience of peak emotion to music.</em> Nature neuroscience, 14(2), 257-262. <a href="http://dx.doi.org/10.1038/nn.2726">doi:10.1038/nn.2726</a>]
+**Artículo original**:
+Salimpoor, V. N., Benovoy, M., Larcher, K., Dagher, A., & Zatorre, R. J. (2011). <em>Anatomically distinct dopamine release during anticipation and experience of peak emotion to music.</em> Nature neuroscience, 14(2), 257-262. <a href="http://dx.doi.org/10.1038/nn.2726">doi:10.1038/nn.2726</a>
 </small>
 
 Imagine un ratón de laboratorio en una caja cerrada que contiene dos botones:

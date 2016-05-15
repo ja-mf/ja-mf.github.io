@@ -2,7 +2,7 @@
 layout: post
 title: "Cosas que se hacen con lo que se encuentra"
 comments: true
-tags: [random,chile]
+tags: [misc,chile]
 ---
 
 Siempre me ha perturbado un poco la idea que a lo único que atina Chile cuando

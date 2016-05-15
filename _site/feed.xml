@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>News 'n' Updates | jam random stuff.</title>
-  <link href="http://jamonardo.github.io/feed.xml" rel="self"/>
-  <link href="http://jamonardo.github.io/"/>
-  <updated>2016-05-15T03:10:57-04:00</updated>
-  <id>http://jamonardo.github.io/</id>
+  <link href="http://jamonardo.github.io//feed.xml" rel="self"/>
+  <link href="http://jamonardo.github.io//"/>
+  <updated>2016-05-15T03:29:06-04:00</updated>
+  <id>http://jamonardo.github.io//</id>
   <author>
     <name>jam</name>
   </author>
@@ -13,9 +13,9 @@
   
   <entry>
     <title>Música, dopamina y estética</title>
-    <link href="http://jamonardo.github.io/musica-dopamina-estetica.html"/>
+    <link href="http://jamonardo.github.io//musica-dopamina-estetica"/>
     <updated>2015-11-20T00:00:00-03:00</updated>
-    <id>http://jamonardo.github.io/musica-dopamina-estetica</id>
+    <id>http://jamonardo.github.io//musica-dopamina-estetica</id>
     <content type="html">&lt;blockquote&gt;
 Music allows the passions to enjoy themselves. &amp;mdash; F. Nietzsche.
 &lt;/blockquote&gt;

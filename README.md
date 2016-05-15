@@ -1,118 +1,147 @@
-# Jekyll Now
+# What's `jekyll-minimal-theme`?
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+It's another minimal(istic) Jekyll static site generator theme,
+that is, a ready-to-fork template pack.
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+See a live demo @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme)
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependancies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+For example:
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+```
+├── _config.yml                               # site configuration
+├── _posts                                    # sample blog posts
+|   ├── 2014-05-05-sportdb-update-v192.md     #   filename format:
+|   ├── 2014-10-10-new-repo-baviria-bayern.md #    => YEAR-MONTH-DAY-TITLE.MARKUP
+|   ├── 2014-10-21-sql-views.md
+|   ├── 2014-11-11-new-reop-maps.md
+|   └── 2014-12-15-quick-starter-datafiles.md
+├── _layouts                           
+|   ├── default.html                   # master layout template
+|   └── post.html                      # single blog post template
+├── css                               
+|   ├── _settings.scss                 # style settings (e.g. variables)
+|   └── style.scss                     # master style page
+├── feed.xml                           # web feed template (e.g. in atom format)
+├── archive.html                       # archive template
+└── index.html                         # index template
+```
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+will result in (with `permalink: /:title.html`):
 
-## Quick Start
+```
+└── _site                                # output build folder; site gets generated here
+    ├── css
+    |   └── style.css                    # styles for pages (copied 1:1 as is)
+    ├── sportdb-update-v192.html         # blog post page
+    ├── new-repo-baviria-bayern.html     # another blog post page
+    ├── sql-views.html                   #  ""
+    ├── new-repo-maps.html               #  ""
+    ├── quick-starter-datafiles.html     #  ""
+    ├── feed.xml                         # web feed (e.g. in atom format)
+    ├── archive.html                     # archive page
+    └── index.html                       # index page
+```
 
-### Step 1) Fork Jekyll Now to your User Repository
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+## Usage
 
-Your Jekyll blog will often be viewable immediately at <http://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+To use - delete all sample posts in the `_posts` folder and
+change the settings in `_config.yml` to use your own `site.title`
+and `site.url`:
 
-![Step 1](/images/step1.gif "Step 1")
+```
+title:   'Jekyll Minimal Theme'
+url:     'http://henrythemes.github.io/jekyll-minimal-theme'
+author:
+  name:  'Jekyll Minimal Theme Team'
+```
 
-### Step 2) Customize and view your site
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
+## Color n Typography Settings (in `css/_settings.scss`)
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <http://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+Typography (Fonts):
 
-> There are 3 different ways that you can make changes to your blog's files:
+~~~
+$font-family:       "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
+$code-font-family:  Menlo, Monaco, "Courier New", monospace;
+~~~
 
-![_config.yml](/images/config.png "_config.yml")
+Colors:
 
-### Step 3) Publish your first blog post
+~~~
+$masthead-color:         #505050;
+$masthead-small-color:   #C0C0C0;
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+$post-title-color:       #303030;
+$post-date-color:        #9a9a9a;
 
-![First Post](/images/first-post.png "First Post")
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+$body-color:            #515151;
+$body-background-color: #fff;
 
-## Local Development
+$link-color:            #268bd2;
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://0.0.0.0:4000
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+$headings-color:        #313131;    // h1,h2,h3,h4,h5,h6
 
-## Moar!
+$strong-color:          #303030;    // strong
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
+$pre-background-color:  #f9f9f9;    // pre
 
-It covers:
+$blockquote-color:        #7a7a7a;  // blockquote
+$blockquote-border-color: #e5e5e5;
 
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
+$table-border-color:         #e5e5e5;
+$table-odd-background-color: #f9f9f9;
+~~~
 
-## Jekyll Now Features
+A big thanks to the Poole theme; the `jekyll-minimal-theme` started out w/
+the typography and color settings from the Poole theme.
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
 
-✘ No installing dependancies  
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
+## Alternative (Minimal) Jekyll Themes
 
-## Questions?
+- Poole Theme by Mark Otto - [(Source)](https://github.com/poole/poole)
 
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
+- Pixyll Theme by John Otander - [(Source)](https://github.com/johnotander/pixyll)
 
-## Other forkable themes
+~~~
+in _main.scss:
+  font-family:     "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  code-font-family: Menlo, Monaco, "Courier New", monospace;
+  h1-h6|button|form|pagination|footer -font-family:
+                   'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
+in _basscss.scss:
+  font-family:       'Helvetica Neue', Helvetica, sans-serif;
+~~~
 
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
+- Hikari Theme by Mathieu Mayer-Mazzoli - [(Source)](https://github.com/m3xm/hikari-for-Jekyll)
 
-## Credits
+~~~
+in components/_syntax.scss:
+  code-font-family:    'Courier', monospace;
+in base/_variables.scss:
+  font-family:         'Open Sans', sans-serif;
+  variant-font-family: 'Lora', Georgia, serif;
+in base/_global.scss:
+  h1-h6-font-family:  'Open Sans', sans-serif;
+in base/_reset.scss:
+  font-family:         sans-serif;
+  code-font-family:    monospace, monospace;
+~~~
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
 
-## Contributing
+### More Themes
 
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
 
-You can start by [opening an issue](https://github.com/barryclark/jekyll-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+### More Quick Starter Wizard Scripts
 
-I want to keep Jekyll Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
+
+
+## Questions? Comments?
+
+Send them along to the [wwwmake forum](http://groups.google.com/group/wwwmake).
+Thanks!

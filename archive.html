@@ -1,0 +1,26 @@
+---
+layout: default
+title: Works and archive
+---
+
+<h1>Works</h1>
+<ul>
+	<li>A cryptanalysis we did with <a href="http://www.danielcaragata.com">Daniel</a>, Mirko and Safwan. <a href="http://dx.doi.org/10.1016/j.aeue.2016.03.001">doi:10.1016/j.aeue.2016.03.001</a></li>
+	<li>Some recordings: <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fjamoncamion&color=orange_white&size=24" style="width: 24px; height: 24px;"></iframe></li>
+	<li>Random art: <a href="http://jamonardo.tumblr.com">jamonardo.tumblr.com</a></li>
+</ul>
+
+<h1>Archive</h1>
+
+{% for post in site.posts %}
+
+<div>
+  {{ post.date | date: "%b %-d, %Y" }}
+    »
+  <span class='post-title'>
+    <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
+  </span>
+</div>
+
+{% endfor %}
+

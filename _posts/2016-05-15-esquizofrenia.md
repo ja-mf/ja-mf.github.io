@@ -6,8 +6,8 @@ tags: [divulgacion-cientifica, esquizofrenia,psy]
 ---
 
 <small>
-	Esta es una traducción literal del artículo<br/>
-	van Os, Jim. <em>“Schizophrenia” does not exist."</em> British Medical Journal 352 (2016): i375. <a href="http://dx.doi.org/10.1136/bmj.i375">doi:10.1136/bmj.i375</a>
+	Esta es una traducción literal del artículo escrito por el profesor holandés Jim van Os,<br>
+	<em>“Schizophrenia” does not exist."</em> British Medical Journal 352 (2016): i375. <a href="http://dx.doi.org/10.1136/bmj.i375">doi:10.1136/bmj.i375</a>
 </small>
 
 En marzo del 2015, un grupo de académicos, pacientes y relacionados,

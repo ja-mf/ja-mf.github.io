@@ -2,6 +2,7 @@
 layout: post
 title: "Música, dopamina y estética"
 tags: [musica,divulgacion-cientifica,psy]
+comments: true
 ---
 
 <blockquote>

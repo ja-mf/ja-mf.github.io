@@ -172,9 +172,21 @@ table {
 ////////////////////////////////
 //  Container
 //   -- centers page content
-
+#content {
+	column-count: 2;
+}
+#content-narrow {
+	column-count: 1;
+}
 .container {
-  max-width: 38rem;
+  max-width: 70rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+.container-narrow {
+  max-width: 30rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -188,6 +200,9 @@ table {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+	position: relative;
+	width:50%;
+	left: 20%;
 
  .masthead-title {
     margin-top: 0;
@@ -212,6 +227,7 @@ table {
 // Posts
 
 .post {
+	display: inline-block;
   margin-bottom: 4em;
 
   // note: only change margin for title,date if inside post block
@@ -249,4 +265,10 @@ abbr {
 }
 .footnotes ol {
 	padding: 1em;
+}
+footer {
+	text-align: center;
+	position: absolute;
+	left: 25%;
+	right: 25%;
 }

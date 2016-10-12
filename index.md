@@ -12,7 +12,7 @@ title: About
 
  Currently, I'm doing an MSc on Electrical Engineering at <a href="http://www.usm.cl">UTFSM</a>, where
  my research is centered on developing adaptive filtering techniques for clinical psychopathology assesment. It's
- kind of specific but I'm mostly interested in the intersection of mathematics, music and psychology. That leaded me
+ kind of specific but I'm mostly interested in the intersection of mathematics, music and psychology. That led me
  naturally to neuroscience, after I completed a bachelor's degree on Telematics engineering, where I worked as a
  research assistant on cryptography.
 

@@ -1,26 +1,33 @@
 ---
-layout: about_index
-title: About
+layout: default
+
+title: j. 
+
 ---
+### &mdash; 
+what you see is what you want to see  
+&nbsp;but what you want is not revealed to you fairly easily  
+&nbsp;and when it does, is just an ilussion,  
+&nbsp;as the same glimpse of certainty that came up  
+an irreproducible road  
+that vanishes to desire  
+again  
 
-#### Juan Andrés Mucarquer
-<a href="mailto:REMOVETHISjuan.mucarquer@usm.cl">E-Mail</a> &mdash;
-<a href="https://cl.linkedin.com/in/jmucarquer">LinkedIn</a> &mdash; 
-<a href="https://facebook.com/jamoon">Facebook</a> &mdash; 
-<a href="https://twitter.com/jamoncamion">Twitter</a> &mdash;
-<a href="https://last.fm/user/deeckaso">Last.fm</a>
+ghosts moves only when you are not watching  
 
- Currently, I'm doing an MSc on Electrical Engineering at <a href="http://www.usm.cl">UTFSM</a>, where
- my research is centered on developing adaptive filtering techniques for clinical psychopathology assesment. It's
- kind of specific but I'm mostly interested in the intersection of mathematics, music and psychology. That led me
- naturally to neuroscience, after I completed a bachelor's degree on Telematics engineering, where I worked as a
- research assistant on cryptography.
+### &mdash;
+intention  
+is the ephemeral moment  
+when someone is sat on a toilet  
+&nbsp; pants down, genitals over water  
+is asked if is willing to take a shit  
+and answers:  
+&nbsp; &nbsp; yes.  
 
-I have a background on information security and cryptography, as well I have worked as a full stack developer in several languages and as a <a href="https://en.wikipedia.org/wiki/Sysadmin">Sysadmin</a> at the same university.
-
-  I think life is an absurd, and that is not a bad fact. I think that most of the things in which I have been considered
-  meticulous, "competent" or "skilled" were motivated by pure and free curiosity. 
- 
- This site is in Spanglish and it is intended for publishing opinionated writings edited exclusively by me.
-	
-*[MSc]: Master of Science
+intention  
+is the sustained moment  
+when someone is sat on a toilet  
+ &nbsp;naked  
+is asked if is willing to take a shit  
+and answers:  
+&nbsp; &nbsp;I want to shake your hand  

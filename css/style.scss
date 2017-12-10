@@ -68,7 +68,7 @@ h4, h5, h6 {
 
 p {
   margin-top: 0;
-	text-indent: 2em;
+	//text-indent: 2em;
 	text-align: justify;
   margin-bottom: 1rem;
 }
@@ -186,7 +186,7 @@ table {
   margin-right: auto;
 }
 .container-narrow {
-  max-width: 30rem;
+ // max-width: 30rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -267,8 +267,10 @@ abbr {
 	padding: 1em;
 }
 footer {
-	text-align: center;
+	font-size: 0.7em;
+	text-align: right;
 	position: absolute;
-	left: 25%;
-	right: 25%;
+	//left: 25%;
+	right: 1%;
+	bottom: 1%;
 }

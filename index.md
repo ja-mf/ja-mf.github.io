@@ -16,18 +16,3 @@ again
 ghosts move only when you are not watching  
 
 ### &mdash;
-intention  
-is the ephemeral moment  
-when someone is sat on a toilet  
-&nbsp; pants down, genitals over water  
-is asked if is willing to take a shit  
-and answers:  
-&nbsp; &nbsp; yes.  
-
-intention  
-is the sustained moment  
-when someone is sat on a toilet  
- &nbsp;naked  
-is asked if is willing to take a shit  
-and answers:  
-&nbsp; &nbsp;I want to shake your hand  

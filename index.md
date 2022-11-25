@@ -1,18 +1,16 @@
 ---
 layout: default
 
-title: j. 
+title: jamf - personal website
 
 ---
-### &mdash; 
-what you see is what you want to see  
-&nbsp;but what you want is not revealed to you quite easily   
-&nbsp;and when it does, it is just an illusion,  
-&nbsp;as the same glimpse of certainty that came up  
-an irreproducible road  
-that vanishes to desire  
-again  
 
-ghosts moves only when you are not watching  
+Juan A. M. Fuentes
+juan.fuentes (at) upf.edu
 
-### &mdash;
+Postdoc at [Computational Neuroscience Group](https://www.upf.edu/web/cns/)
+[Center for Brain and Cognition](https://www.upf.edu/web/cbc)
+Universitat Pompeu Fabra,
+Barcelona, Spain
+
+[Google Scholar](https://scholar.google.com/citations?user=F8u_DE4AAAAJ&hl=en)
